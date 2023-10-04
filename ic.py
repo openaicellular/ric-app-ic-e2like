@@ -41,8 +41,8 @@ SPEC_SIZE = num_of_samples * 8  # size in bytes, where 8 bytes is the size of on
 
 
 cmds = {
-    'DYNAMIC_SCHEDULING_ON': b'1',
-    'DYNAMIC_SCHEDULING_OFF': b'0'
+    'DYNAMIC_SCHEDULING_ON': b'm',
+    'DYNAMIC_SCHEDULING_OFF': b'z'
 }
 
 
